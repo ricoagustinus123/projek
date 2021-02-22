@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: ghostwhite;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.set1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+}
+
+.box1 {
+  background-image: url(https://picsum.photos/seed/54/900);
+}
+.box2 {
+  background-image: url(https://picsum.photos/seed/30/900);
+}
+.box3 {
+  background-image: url(https://picsum.photos/seed/14/900);
+}
+.box4 {
+  background-image: url(https://picsum.photos/seed/24/900);
+}
